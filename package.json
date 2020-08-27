@@ -1,0 +1,14 @@
+{
+    "name": "js-testing-basics",
+    "version": "1.0.0",
+    "description": "A repo for my JavaScript Testing Basics",
+    "scripts": {
+      "test": "jest"
+    },
+    "keywords": [],
+    "author": "Pritesh Gudge <priteshgudgedev@gmail.com> (https://priteshgudge.com/)",
+    "license": "MIT",
+    "devDependencies": {
+      "jest": "^24.9.0"
+    }
+  }
