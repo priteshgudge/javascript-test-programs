@@ -1,4 +1,4 @@
-# Javascript Testing Fundamentals
+# Javascript Testing Basics
 
 1.  `simple.js`
 2.  `assertion-library.js`
@@ -9,7 +9,7 @@
 
 The files are intended to test the `math` module.
 
-To run the files, run `node lessons/<lesson-filename>.js`.
+To run the files, run `node examples/<lesson-filename>.js`.
 
 > For the `global` one, run `node -r ./setup-globals.js ./lessons/globals.js`
 >
