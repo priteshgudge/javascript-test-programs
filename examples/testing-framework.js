@@ -18,6 +18,22 @@ function subtractTest(){
 
 test('subtract subtracts numbers', subtractTest)
 
+// Better way to represent
+
+test('sum adds numbers', () => {
+    result = sum(3, 7)
+    expected = 10
+    expect(result).toBe(expected)
+})
+
+test('subtract subtracts numbers', () => {
+    result = subtract(7, 3)
+    expected = 4
+    expect(result).toBe(expected)
+})
+
+
+// Framework functions 
 function expect(actual) {
     return {
       toBe(expected) {
